@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100, 400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class = "container"> 
+      <div class = "row">
+        <div class = "col-md-6">
+          <img class="title-logo img-responsive" src="http://placehold.it/100x100" alt="Project 1">
+        </div>
+        <div class = "col-md-6 text-right text-uppercase">
+          <h1 class = "title-super text-thin">George Liu</h1>
+          <h3 class = "text-reg">Full-stack web developer</h3>
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "col-md-12">
+          <hr>
+        </div>
+      <div class = "row">
+        <div class = "col-md-12">
+          <img class="img-responsive" src="http://placehold.it/1140x350" alt="Project 2">
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "col-md-12">
+          <h2 class = "text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class = "row text-center">
+        <div class = "col-md-4">
+          <img class="img-responsive" src="http://placehold.it/325x300" alt="Project 3" data-toggle="modal" data-target="#project1">
+          <h3 class = "subtitle">Tinder for Turtles</h3>
+          <p><a href="http://github.com">https://github.com/</a></p>
+        </div>
+        <div class = "col-md-4">
+          <img class="img-responsive" src="http://placehold.it/325x300" alt="Project 4" data-toggle="modal" data-target="#project2">
+          <h3 class = "subtitle">Uber for Santas</h3>
+          <p><a href="http://github.com">https://github.com/</a></p>
+        </div>
+        <div class = "col-md-4">
+          <img class="img-responsive" src="http://placehold.it/325x300" alt="Project 5" data-toggle="modal" data-target="#project3">
+          <h3 class = "subtitle">Airbnb for Tacos</h3>
+          <p><a href="http://github.com">https://github.com/</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Tinder for Turtles</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/325x300">
+                    Because turtles need affection too.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Uber for Santas</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/325x300">
+                    12x surge pricing on Christmas eve.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Airbnb for Tacos</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/325x300">
+                    Find your taco a nice safe person to hold it.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  </body>
+</html>
